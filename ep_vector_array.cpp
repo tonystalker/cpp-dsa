@@ -26,10 +26,12 @@ int main() {
         
         v.push_back(temp); // Push the filled temp vector into v
     }
+    v[1].push_back(0);
     
+
     for (int i = 0; i < v.size(); ++i) {
         printVec(v[i]);
     }
     
-    return 0;
+    return 0; 
 }
